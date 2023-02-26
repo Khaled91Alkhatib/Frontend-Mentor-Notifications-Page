@@ -6,7 +6,7 @@
 
 .main-container {
   min-height: 100vh;
-  width: 100vw;
+  min-width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,19 +16,16 @@
 
 .notifications {
   background-color: white;
-  min-width: 40vw;
+  max-width: 50vw;
+  // min-height: 70%;
   position: absolute;
   top: 50%;
   left: 50%;
-  text-align: center;
+  // text-align: center;
   transform: translate(-50%, -50%);
-  box-shadow: 2px 2px 2px #888888;
-  padding: 1em;
+  box-shadow: 1px 1px 1px 1px #888888;
+  padding: 2em;
   border-radius: 5px;
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: space-between;
-  // align-items: center;
 }
 
 .all-nav {
@@ -56,6 +53,8 @@
 .mark-as-read {
   color: hsl(219, 12%, 42%);
   font-size: 13px;
+  border: none;
+  background-color: white;
 
   &:hover {
     cursor: pointer;
@@ -71,18 +70,41 @@ img {
 .image-info {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   color: hsl(219, 12%, 42%);
+  margin-bottom: 15px;
+  min-width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.unread-post {
+  background-color: hsl(210, 60%, 98%);
 }
 
 .info {
   font-size: 13px;
 }
 
+.name,
+.group {
+  margin-right: 2px;
+
+  &.name {
+    color: black;
+  }
+
+  &:hover {
+    cursor: pointer;
+    color: hsl(219, 85%, 26%);
+  }
+}
+
 .single-feed {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   text-align: left;
 }
 
@@ -90,4 +112,25 @@ img {
   margin-top: 4px;
   font-size: 13px;
   color: hsl(219, 14%, 63%);
+}
+
+.message {
+  font-size: 13px;
+  border: 1px solid hsl(205, 33%, 90%);
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+
+  &:hover {
+    cursor: pointer;
+    background-color: hsl(211, 68%, 94%);
+  }
+}
+
+.unread-dot {
+  width: 5px;
+  height: 5px;
+  background-color: hsl(1, 90%, 64%);
+  border-radius: 50%;
+  margin-left: 5px;
 }
