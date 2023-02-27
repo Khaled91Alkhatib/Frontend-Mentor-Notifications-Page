@@ -1,4 +1,4 @@
-# Frontend Mentor - News homepage solution
+# Frontend Mentor - Notifications page solution
 
 This is a solution to the [Notifications page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -23,7 +23,7 @@ Users should be able to:
 ![Mobile View](https://github.com/Khaled91Alkhatib/Frontend-Mentor-Notifications-Page/blob/main/public/mobile-notification.png?raw=true)
 ### Links
 
-- Live Site URL: []()
+- Live Site URL: [https://frontend-notification.netlify.app/](https://frontend-notification.netlify.app/)
 
 ### Built with
 
