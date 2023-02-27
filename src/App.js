@@ -113,7 +113,7 @@ function App() {
                   </div>
                 </div>
                 <div>
-                  <img style={{ margin: '0' }} src={chessImage} alt="chess" />
+                  <img style={{ marginLeft: '40px' }} src={chessImage} alt="chess" />
                 </div>
               </div>
             </div>
